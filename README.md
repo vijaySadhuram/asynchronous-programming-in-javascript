@@ -83,3 +83,14 @@ Example
                                                    function(error) {myDisplayer(error);}
 
                                                      );
+
+
+Await Syntax
+------------
+
+The await keyword can only be used inside an async function.
+
+The await keyword makes the function pause the execution and wait for a resolved promise before it continues:
+
+
+let value = await promise;
